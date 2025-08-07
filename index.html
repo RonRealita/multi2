@@ -20,6 +20,9 @@
             padding: 0.5rem; 
             text-align: center;
             font-size: 0.7em; 
+            position: sticky;
+            top: 0;
+            z-index: 999;
         }
         nav { 
             background: #FF7315; 
@@ -29,11 +32,19 @@
             gap: 2rem; 
             padding: 1rem; 
             flex-wrap: wrap; 
+            max-width: 100%;
+            position: sticky;
+            top: 118px;
+            z-index: 999;
         }
         nav a { 
             color: #F2F2F2; 
             text-decoration: none; 
             font-weight: 600; 
+            text-decoration: underline;
+        }
+        .bab1, .bab2 {
+            scroll-margin-top: 150px; /* atau sesuaikan dengan tinggi navbar kamu */
         }
         section { 
             padding: 2rem; 
@@ -93,7 +104,6 @@
             padding: 1rem; 
             background: #232020; 
             color: #F2F2F2; 
-            margin-top: 1rem; 
         }
         img { 
             max-width: 100%; 
@@ -109,15 +119,27 @@
             padding: 1rem;
         }
 
-        nav {
-            flex-direction: column;
-            align-items: center;
-            gap: 0.5rem;
+        nav { 
+            background: #FF7315; 
+            color: #F2F2F2; 
+            display: flex; 
+            justify-content: center; 
+            gap: 2rem; 
+            padding: 1rem; 
+            flex-wrap: wrap; 
+            max-width: 100%;
+            position: sticky;
+            top: 114px;
+            z-index: 999;
         }
-
-        nav a {
-            width: 100%;
-            text-align: center;
+        nav a { 
+            color: #F2F2F2; 
+            text-decoration: none; 
+            font-weight: 600; 
+            text-decoration: underline;
+        }
+        .bab1, .bab2 {
+            scroll-margin-top: 150px; /* atau sesuaikan dengan tinggi navbar kamu */
         }
         section p{ 
             max-width: 90%; 
@@ -177,10 +199,11 @@
         <!-- <a href="#intro">Pengantar</a> -->
         <a href="#bab1">Jenis-jenis plastik</a>
         <a href="#bab2">Prinsip 3R</a>
-        <a href="#bab3">Contoh produk dari sampah plastik</a>
+        <a href="#bab3">Contoh</a>
         <!-- <a href="#bab4">Sumber Daya</a>
         <a href="#bab5">Penutup</a> -->
     </nav>
+    
     <section id="intro" class="intro">
         <!-- <h2>Pengantar</h2> -->
         <p>
