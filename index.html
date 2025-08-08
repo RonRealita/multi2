@@ -46,6 +46,9 @@
         .bab1, .bab2, .bab3 {
             scroll-margin-top: 150px; /* atau sesuaikan dengan tinggi navbar kamu */
         }
+        .sumber p{ 
+            margin-right: 800px;
+        }
         section { 
             padding: 2rem; 
             max-width: 100%; 
@@ -54,8 +57,8 @@
             text-align: justify; 
         }
         section p{ 
-            max-width: 90%; 
-            margin: auto; 
+            /* max-width: 80%;  */
+            margin: 0 50px 0px 40px; 
             text-align: justify;
         }
         h2 { 
@@ -80,7 +83,7 @@
             padding-left: 67px;
             margin-left: 20px;
             text-align: justify;
-            max-width: 80%;
+            margin: 0 50px 0px 40px; 
         }
         ol[type="a"] > li > ul {
             margin-top: 0.5rem;
@@ -88,15 +91,19 @@
             margin-left: 0;
             list-style-type: disc;
             text-align: justify;
-            max-width: 80%;
+            margin: 0 50px 0px 40px; 
+            text-align: justify;
+        }
+        ol li::marker {
+            font-weight: bold;
         }
         .img-container {
-        text-align: center;
-        margin-top: 0.5rem;
+            text-align: center;
+            margin-top: 0.5rem;
         }
         .center-img {
-        max-width: 100px; /* Atur sesuai kebutuhan */
-        height: auto;
+            max-width: 100px; /* Atur sesuai kebutuhan */
+            height: auto;
         }
         .produk-container {
             display: flex;
@@ -181,14 +188,17 @@
         .bab1, .bab2 {
             scroll-margin-top: 150px; /* atau sesuaikan dengan tinggi navbar kamu */
         }
+        .sumber p{ 
+            margin-right: 20px;
+        }
         section p{ 
             max-width: 90%; 
             margin: auto; 
             text-align: justify;
         }
         section p{ 
-            max-width: 95%; 
-            margin: auto; 
+            max-width: 80%; 
+            margin: 0 auto 0px 35px; 
             text-align: justify;
         }
         h2 { 
@@ -206,9 +216,6 @@
             align-items: center;
             gap: 0.3em;
         }
-        li{
-            max-width: 95%;
-        }
         ol > li > h2 {
         margin: 0; /* supaya tidak ada jarak tambahan dari heading */
         max-width: 100%;
@@ -216,17 +223,21 @@
 
         ol[type="a"] {
             padding-left: 20px;
-            /* margin-left: 20px; */
             text-align: justify;
             max-width: 100%;
+            margin-right: 40px;
         }
         ol[type="a"] > li > ul {
             margin-top: 0.5rem;
             padding-left: 2px;
             margin-left: 0;
+            margin-right: 0;
             list-style-type: disc;
             text-align: justify;
             max-width: 100%;
+        }
+        ol li::marker {
+            font-weight: bold;
         }
         .produk-container {
             display: flex;
@@ -245,19 +256,18 @@
     </header>
     <nav>
         <!-- <a href="#intro">Pengantar</a> -->
-        <a href="#bab1">Jenis-jenis plastik</a>
+        <a href="#bab1">Jenis plastik</a>
         <a href="#bab2">Prinsip 3R</a>
         <a href="#bab3">Contoh</a>
         <!-- <a href="#bab4">Sumber Daya</a>
         <a href="#bab5">Penutup</a> -->
     </nav>
     
-    <section id="intro" class="intro">
-        <!-- <h2>Pengantar</h2> -->
+    <section>
         <p>
             Plastik merupakan bahan kemasan yang umum digunakan dalam kehidupan sehari-hari. 
             Namun, banyak pengguna plastik yang belum memahami berbagai jenis plastik, fungsinya, serta dampak kesehatan dan dampak lingkungan yang dapat ditimbulkan dari penggunaannya yang tidak tepat.
-            Untuk mengurangi dampak negatif dari penggunaan plastik yang tidak tepat, penting bagi kita untuk memahami cara mengelola sampah plastik dengan bijak, salah satunya melalui penerapan prinsip 3R (Reduce, Reuse, Recycle) yang bertujuan untuk mengurangi jumlah sampah plastik, memaksimalkan penggunaan kembali, dan mendaur ulang plastik agar tidak mencemari lingkungan.
+            Untuk mengurangi dampak negatif dari penggunaan plastik, penting bagi kita untuk memahami cara mengelola sampah plastik, salah satunya melalui penerapan prinsip 3R (Reduce, Reuse, Recycle) yang bertujuan untuk mengurangi jumlah sampah plastik, memaksimalkan penggunaan kembali, dan mendaur ulang plastik agar tidak mencemari lingkungan.
             Berikut akan dijelaskan mengenai jenis-jenis plastik dan cara mengelola sampah plastik menggunakan prinsip 3R.
         </p>
     </section>
@@ -401,26 +411,26 @@
         </li>
     </ol>
     <p>
-        Sampah plastik merupakan jenis sampah anorganik yang sangat sulit terurai secara alami dan jumlahnya terus meningkat seiring dengan pertambahan jumlah penduduk. Akibatnya, plastik menjadi salah satu penyumbang terbesar timbunan sampah di Tempat Pembuangan Akhir (TPA), melampaui jenis sampah anorganik lainnya. Sayangnya, penanganan yang keliru, seperti membakar sampah plastik, justru menimbulkan dampak buruk karena menghasilkan gas beracun seperti hidrogen sianida dan karbon monoksida yang berbahaya bagi kesehatan dan lingkungan.<br>
-        <br>Oleh karena itu, diperlukan upaya pengelolaan sampah plastik yang lebih bijak dan ramah lingkungan. Salah satu pendekatan yang efektif adalah melalui penerapan prinsip 3R: Reduce (mengurangi penggunaan plastik sekali pakai), Reuse (menggunakan kembali plastik yang masih layak pakai), dan Recycle (mendaur ulang plastik menjadi produk baru yang bermanfaat). Dengan menerapkan prinsip ini secara konsisten, kita tidak hanya dapat mengurangi pencemaran lingkungan, tetapi juga turut mendorong gaya hidup yang lebih bertanggung jawab dan berkelanjutan.<br>
+        Sampah plastik merupakan jenis sampah anorganik yang sangat sulit terurai secara alami dan jumlahnya terus meningkat seiring dengan pertambahan jumlah penduduk. Akibatnya, plastik menjadi salah satu penyumbang terbesar sampah di Tempat Pembuangan Akhir (TPA). Sayangnya, penanganan yang keliru, seperti membakar sampah plastik, justru menimbulkan dampak buruk karena menghasilkan gas beracun seperti hidrogen sianida dan karbon monoksida yang berbahaya bagi kesehatan dan lingkungan.
+        Oleh karena itu, diperlukan upaya pengelolaan sampah plastik yang lebih bijak dan ramah lingkungan seperti penerapan prinsip 3R: Reduce (mengurangi penggunaan plastik sekali pakai), Reuse (menggunakan kembali plastik yang masih layak pakai), dan Recycle (mendaur ulang plastik menjadi produk baru yang bermanfaat).<br>
         <br>Prinsip 3R merupakan pendekatan ramah lingkungan dalam pengelolaan sampah yang meliputi:
     </p>
 
     <ol type="a">
         <li>
             <strong>Reduce (Mengurangi)</strong><br>
-            Plastik sekali pakai seperti kantong plastik, sedotan, kemasan makanan, dan botol air minum adalah sumber utama pencemaran lingkungan. Mengurangi penggunaan plastik berarti kita mencegah sampah terbentuk sejak awal. Berikut beberapa tips sederhana namun efektif yang bisa dilakukan sehari-hari:
+            Plastik sekali pakai seperti kantong plastik, sedotan, kemasan makanan, dan botol air minum adalah sumber utama pencemaran lingkungan. Berikut beberapa tips sederhana untuk mengurangi penggunaan plastik:
             <ul>
-                <li>Bawa tas belanja sendiri saat berbelanja di pasar, toko, atau minimarket. Gunakan tas kain atau tas lipat yang bisa digunakan berulang kali</li>
-                <li>Pilih produk dengan kemasan minimal atau tanpa kemasan plastik, seperti membeli sayur dan buah tanpa dibungkus plastik</li>
-                <li>Gunakan botol minum isi ulang daripada membeli air minum dalam kemasan botol plastik sekali pakai</li>
-                <li>Hindari penggunaan sedotan plastik.Gunakan sedotan stainless atau bambu jika diperlukan</li>
-                <li>Beli dalam jumlah besar atau isi ulang untuk mengurangi limbah kemasan kecil-kecil (misalnya sabun, deterjen, bumbu dapur)</li>
+                <li>Membawa tas belanja sendiri saat berbelanja di pasar, toko, atau minimarket. Gunakan tas kain atau tas lipat yang bisa digunakan berulang kali</li>
+                <li>Memilih produk dengan kemasan minimal atau tanpa kemasan plastik, seperti membeli sayur dan buah tanpa dibungkus plastik</li>
+                <li>Menggunakan botol minum isi ulang daripada membeli air minum dalam kemasan botol plastik sekali pakai</li>
+                <li>Menghindari penggunaan sedotan plastik.Gunakan sedotan stainless atau bambu jika diperlukan</li>
+                <li>Membeli dalam jumlah besar atau isi ulang untuk mengurangi limbah kemasan kecil-kecil (misalnya sabun, deterjen, bumbu dapur)</li>
             </ul>
         </li>
         <li>
             <strong>Reuse (Menggunakan Kembali)</strong><br>
-            Daripada langsung membuang sampah plastik, kita bisa memanfaatkannya kembali sebagai barang berguna. Ini adalah langkah cerdas untuk mengurangi volume sampah sekaligus mengasah kreativitas. Berikut beberapa ide kreatif pemanfaatan barang bekas plastik di rumah:
+            Kita dapat memanfaatkan kembali sampah plastik sebagai barang berguna untuk mengurangi volume sampah sekaligus mengasah kreativitas. Berikut beberapa ide kreatif pemanfaatan sampah plastik:
             <ul>
                 <li>Botol plastik bekas bisa dijadikan pot tanaman, tempat pensil, atau kerajinan tangan</li>
                 <li>Kantong plastik bekas belanja bisa digunakan ulang sebagai tempat sampah, pembungkus barang, atau bahkan dijahit jadi tas belanja baru</li>
@@ -431,7 +441,7 @@
         </li>
         <li>
             <strong>Recycle (Mendaur Ulang)</strong><br>
-            Daur ulang adalah proses mengubah sampah menjadi barang baru yang bermanfaat. Dengan mendaur ulang, kita bisa mengurangi jumlah sampah yang dibuang ke TPA dan menghemat sumber daya alam. Sampah harus dipilah agar proses daur ulang bisa berjalan dengan efisien. Jika sampah plastik tercampur dengan sampah organik atau bahan berbahaya, maka proses daur ulang bisa terganggu.<br>
+            Daur ulang adalah proses mengubah sampah menjadi barang baru yang bermanfaat. Sebelum melakukan daur ulang, sampah harus dipilah agar proses daur ulang bisa berjalan dengan efisien.<br>
             Cara Memilah Sampah:
             <ul>
                 <li>Pisahkan sampah berdasarkan jenisnya, sampah organik (sisa makanan, daun) dan sampah anorganik (plastik, kertas, logam, kaca)</li>
@@ -462,7 +472,7 @@
             <h2>Contoh produk dari sampah plastik</h2>
         </li>
     </ol>
-    <p>Berikut merupakan contoh produk yang terbuat dari limbah plastik:</p>
+    <p>Berikut merupakan contoh produk yang terbuat dari sampah plastik:</p>
 
     <div class="produk-container">
         <!-- Kotak Produk 1 -->
@@ -476,8 +486,26 @@
             <h3>Gantungan Kunci dari Sampah Plastik</h3>
             <img src="gancii.jpg" alt="Gantungan Kunci dari Sampah Plastik">
         </a>
+        <!-- Kotak Produk 3 -->
+        <a href="produk3.html" class="produk-card">
+            <h3>Lampu Lampion dari Sampah Plastik</h3>
+            <img src="lampu.jpg" alt="Lampu Lampion dari Sampah Plastik">
+        </a>
     </div>
 </section>
+<section id="sumber" class="sumber">
+        <p>
+            <strong>Sumber:</strong>
+            <br>Astuti, A. D., Wahyudi, J., Ernawati, A., dan Aini, S. Q. (2020). Kajian pendirian usaha biji plastik di Kabupaten Pati, Jawa Tengah. J. Litbang: Media Informasi Penelitian, Pengembangan dan IPTEK. 16(2): 95-112.<br>
+            <br>Purwaningrum, P. (2016). Upaya mengurangi timbulan sampah plastik di lingkungan. J. Teknik Lingkungan. 8(2): 141–147.<br> 
+            <br>Kementerian Lingkungan Hidup dan Kehutanan Republik Indonesia. (2021). Pedoman Pengelolaan Sampah Berbasis Masyarakat. Jakarta: KLHK.
+            (Ministry of Environment and Forestry of the Republic of Indonesia. Community-Based Waste Management Guidelines.)<br>
+            <br>World Wide Fund for Nature (WWF) Indonesia. Mengurangi Sampah Plastik Sekali Pakai. (Reducing Single-Use Plastic Waste). Retrieved from: https://www.wwf.id<br>
+            <br>United Nations Environment Programme (UNEP). (2018). Single-Use Plastics: A Roadmap for Sustainability. Nairobi: UNEP.
+            (Available at: https://www.unep.org/resources/report)<br>
+        
+        </p>
+    </section>
 
     <footer>
         &copy; 2025 TIM KKN-T IDBU 82 UNDIP | Dibuat dengan cinta untuk lingkungan 🌱
